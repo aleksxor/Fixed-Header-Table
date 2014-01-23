@@ -74,7 +74,7 @@
             widthMinusScrollbar;
 
         settings.originalTable = $(this).clone();
-        settings.includePadding = helpers._isPaddingIncludedWithWidth();
+        settings.includePadding = true; //helpers._isPaddingIncludedWithWidth();
         settings.scrollbarOffset = helpers._getScrollbarWidth();
         settings.themeClassName = settings.themeClass;
 
